@@ -1,0 +1,75 @@
+.main_div{
+    background-color: lavender;
+    width: 50%;
+    height: 750px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+img{
+    height:10%;
+    position: relative;
+    left: 120%;
+    top: -600px;
+}
+.none:checked~img{
+    transform: none;
+}
+.deg10:checked~img{
+    transform: rotate(10deg);
+}
+.deg45:checked~img{
+    transform: rotate(45deg);
+}
+.x45deg:checked~img{
+    transform: rotateX(45deg);
+}
+.x100deg:checked~img{
+    transform: rotateX(100deg);
+}
+.y45deg:checked~img{
+    transform: rotateY(45deg);
+}
+.y80deg:checked~img{
+    transform: rotateY(80deg);
+}
+.skew20deg:checked~img{
+    transform: skew(20deg,20deg);
+}
+.skew30deg:checked~img{
+    transform: skew(30deg,30deg);
+}
+.skewx30deg:checked~img{
+    transform: skewX(30deg);
+}
+.skewx40deg:checked~img{
+    transform: skewX(40deg);
+}
+.skewy30deg:checked~img{
+    transform: skewY(30deg);
+}
+.skewy40deg:checked~img{
+    transform: skewY(40deg);
+}
+.trans10px:checked~img{
+    transform: translate(20px,10px);
+}
+.trans20px:checked~img{
+    transform: translate(20px,20px);
+}
+.scale2:checked~img{
+    transform: scale(2,2);
+}
+.scale3:checked~img{
+    transform: scale(2,3);
+}
+.mat0:checked~img{
+    transform: matrix(0.866,0.7,-0.8,0.866,0,0);
+}
+.mat1:checked~img{
+    transform: matrix(0.586,0.8,-0.8,0.586,0,0);
+}
+.mat2:checked~img{
+    transform: matrix(0.586,0.8,-0.8,0.586,40,30);
+}
+
